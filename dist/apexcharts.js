@@ -11880,68 +11880,68 @@
     return PointAnnotations;
   }();
 
-  const name = "en";
+  const name = "ru";
   const options = {
   	months: [
-  		"January",
-  		"February",
-  		"March",
-  		"April",
-  		"May",
-  		"June",
-  		"July",
-  		"August",
-  		"September",
-  		"October",
-  		"November",
-  		"December"
+      "Январь",
+      "Февраль",
+      "Март",
+      "Апрель",
+      "Май",
+      "Июнь",
+      "Июль",
+      "Август",
+      "Сентябрь",
+      "Октябрь",
+      "Ноябрь",
+      "Декабрь"
   	],
   	shortMonths: [
-  		"Jan",
-  		"Feb",
-  		"Mar",
-  		"Apr",
-  		"May",
-  		"Jun",
-  		"Jul",
-  		"Aug",
-  		"Sep",
-  		"Oct",
-  		"Nov",
-  		"Dec"
+      "Янв",
+      "Фев",
+      "Мар",
+      "Апр",
+      "Май",
+      "Июн",
+      "Июл",
+      "Авг",
+      "Сен",
+      "Окт",
+      "Ноя",
+      "Дек"
   	],
   	days: [
-  		"Sunday",
-  		"Monday",
-  		"Tuesday",
-  		"Wednesday",
-  		"Thursday",
-  		"Friday",
-  		"Saturday"
+  		"Воскресенье",
+  		"Понедельник",
+  		"Вторник",
+  		"Среда",
+  		"Четверг",
+  		"Пятница",
+  		"Суббота"
   	],
   	shortDays: [
-  		"Sun",
-  		"Mon",
-  		"Tue",
-  		"Wed",
-  		"Thu",
-  		"Fri",
-  		"Sat"
+  		"Вс",
+  		"Пн",
+  		"Вт", 
+  		"Ср",
+  		"Чт",
+  		"Пт",
+  		"Сб"
   	],
   	toolbar: {
-  		exportToSVG: "Download SVG",
-  		exportToPNG: "Download PNG",
-  		exportToCSV: "Download CSV",
-  		menu: "Menu",
-  		selection: "Selection",
-  		selectionZoom: "Selection Zoom",
-  		zoomIn: "Zoom In",
-  		zoomOut: "Zoom Out",
-  		pan: "Panning",
-  		reset: "Reset Zoom"
+  		exportToSVG: "Скачать SVG",
+  		exportToPNG: "Скачать PNG",
+  		exportToCSV: "Скачать CSV",
+  		menu: "Меню",
+  		selection: "Выбор",
+  		selectionZoom: "Выбор зум",
+  		zoomIn: "Приблизить",
+  		zoomOut: "Отдалить",
+  		pan: "Панорамирование",
+  		reset: "Сбросить зум"
   	}
   };
-  var en = {
+  var ru = {
   	name: name,
   	options: options
   };
@@ -12213,8 +12213,8 @@
               }
             },
             background: '',
-            locales: [en],
-            defaultLocale: 'en',
+            locales: [ru],
+            defaultLocale: 'ru',
             dropShadow: {
               enabled: false,
               enabledOnSeries: undefined,
@@ -20532,7 +20532,7 @@
         })[0];
         if (selectedLocale) {
           // create a complete locale object by extending defaults so you don't get undefined errors.
-          var ret = Utils$1.extend(en, selectedLocale);
+          var ret = Utils$1.extend(ru, selectedLocale);
 
           // store these locale options in global var for ease access
           this.w.globals.locale = ret.options;

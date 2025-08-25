@@ -785,7 +785,7 @@ export const optionsPattern = {
             'ua',
             'zh-cn',
           ],
-          default: 'en',
+          default: 'ru',
         },
         dropShadow: {
           type: Object,
@@ -964,7 +964,7 @@ export const optionsPattern = {
               title:
                 "You can specify a default locale if you have set multiple locales. Later on, you can also override the locale dynamically by calling `chart.setLocale('fr')` also.",
               type: String,
-              default: 'en',
+              default: 'ru',
             },
             // BUG: implement it, needs array type
             locales: {
@@ -976,7 +976,7 @@ export const optionsPattern = {
                     title:
                       'Name of the locale you will be defining options for. Can be `en`, `fr`, etc.',
                     type: String,
-                    default: 'en',
+                    default: 'ru',
                   },
                   options: {
                     type: Object,

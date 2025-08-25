@@ -26,7 +26,7 @@ export default {
 
             this.$refs.iframe.src = "data:text/html;charset=utf-8," + escape(`
             <!doctype html>
-            <html lang="en">
+            <html lang="ru">
               <head>
                 <style>
                   a { cursor: pointer; color: #413aa4; }
@@ -84,7 +84,7 @@ const getHtml = (code, version) => {
 
   return `
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
