@@ -1,6 +1,6 @@
 import Utils from '../../utils/Utils'
 
-import en from '../../locales/en.json'
+import ru from '../../locales/ru.json'
 
 export default class Localization {
   constructor(ctx) {
@@ -26,7 +26,7 @@ export default class Localization {
 
     if (selectedLocale) {
       // create a complete locale object by extending defaults so you don't get undefined errors.
-      let ret = Utils.extend(en, selectedLocale)
+      let ret = Utils.extend(ru, selectedLocale)
 
       // store these locale options in global var for ease access
       this.w.globals.locale = ret.options

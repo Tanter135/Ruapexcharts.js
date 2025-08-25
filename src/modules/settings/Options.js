@@ -1,7 +1,7 @@
 /**
  * ApexCharts Options for setting the initial configuration of ApexCharts
  **/
-import en from './../../locales/en.json'
+import ru from './../../locales/ru.json'
 
 export default class Options {
   constructor() {
@@ -271,8 +271,8 @@ export default class Options {
           },
         },
         background: '',
-        locales: [en],
-        defaultLocale: 'en',
+        locales: [ru],
+        defaultLocale: 'ru',
         dropShadow: {
           enabled: false,
           enabledOnSeries: undefined,
